@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "falck-hub-adaptive-card-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/falckHubAdaptiveCard/FalckHubAdaptiveCardAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/falckHubAdaptiveCard/FalckHubAdaptiveCardAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FalckHubAdaptiveCardAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/falckHubAdaptiveCard/loc/{locale}.js"
+  }
+}

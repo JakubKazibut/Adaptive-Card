@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "falck-hub-adaptive-card-client-side-solution",
+    "id": "c78624f1-10ea-4d42-a48d-4fdca96f876f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "falck-hub-adaptive-card description"
+      },
+      "longDescription": {
+        "default": "falck-hub-adaptive-card description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "falck-hub-adaptive-card Feature",
+        "description": "The feature that activates elements of the falck-hub-adaptive-card solution.",
+        "id": "7a4d9d5a-bf7c-4108-9af8-08cd69745fb0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/falck-hub-adaptive-card.sppkg"
+  }
+}

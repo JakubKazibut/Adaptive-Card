@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/adaptive-card-extension-manifest.schema.json",
+  "id": "a0f1e9df-2a6a-4bfc-9ae4-a754276edc25",
+  "alias": "FalckHubAdaptiveCardAdaptiveCardExtensio",
+  "componentType": "AdaptiveCardExtension",
+
+  "version": "1.0.7",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["Dashboard"],
+  "preconfiguredEntries": [{
+    "groupId": "bd067b1e-3ad5-4d5d-a5fe-505f07d7f59c",
+    "group": { "default": "Dashboard" },
+    "title": { "default": "falck-hub-adaptive-card" },
+    "description": { "default": "falck-hub-adaptive-card description" },
+    "iconImageUrl": "./assets/falck-read.png",
+    "properties": {
+      "title": "App name",
+      "imageUrl": "",
+      "description": "Description for the application",
+      "deskTopLink": "http://www.falck.com",
+      "sharePointList": "https://qksm.sharepoint.com/sites/dev/_api/web/lists/GetById(id='d9502332-afcd-4c8f-a2f7-542f37828612')/items",
+      "appID": "0",
+      "urlToPowerApp": "https://teams.microsoft.com/l/entity/e75368a0-9db4-48d8-8dc7-da40898980b8"
+    },
+    "cardSize": "Medium"
+  }]
+}
