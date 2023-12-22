@@ -2,9 +2,7 @@ import {
   IPropertyPaneConfiguration, 
   PropertyPaneTextField, 
   IPropertyPaneDropdownOption, 
-  PropertyPaneDropdown, 
-  // PropertyPaneLink, 
-  // PropertyPaneDynamicFieldSet
+  PropertyPaneDropdown
 } from '@microsoft/sp-property-pane';
 import * as strings from 'FalckHubAdaptiveCardAdaptiveCardExtensionStrings';
 

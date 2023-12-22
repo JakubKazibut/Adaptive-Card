@@ -6,7 +6,6 @@ import {
   IQuickViewCardAction,
   PrimaryTextCardView,
 } from "@microsoft/sp-adaptive-card-extension-base";
-// import * as strings from "FalckHubAdaptiveCardAdaptiveCardExtensionStrings";
 import {
   IFalckHubAdaptiveCardAdaptiveCardExtensionProps,
   IFalckHubAdaptiveCardAdaptiveCardExtensionState,
